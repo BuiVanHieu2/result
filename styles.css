@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+h1 {
+    text-align: center;
+    color: #444;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.progress-bar {
+    background: #e6e6e6;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 20px 0;
+    height: 25px;
+}
+.progress-bar-inner {
+    background: #6c63ff;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding-left: 0;
+}
+li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #f0f0ff;
+}
+a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+h2 {
+    color: #555;
+    margin-top: 30px;
+}
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+button {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #5753d6;
+}
+.icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #6c63ff;
+}
